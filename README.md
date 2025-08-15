@@ -9,7 +9,7 @@ Why use the LaTeX source instead of uploading PDFs? Many PDF chat applications o
 
 ## Installation
 
-If you are using Claude Desktop, you can utilize Desktop Extensions by double-clicking on the .dxt file to install.
+If you are using Claude Desktop and MacOS, you can utilize Desktop Extensions by double-clicking on the .dxt file to install.
 Download the .dxt file from [here](https://github.com/takashiishida/arxiv-latex-mcp/releases/).
 
 Otherwise, you can manually add the following configuration to your config file:
