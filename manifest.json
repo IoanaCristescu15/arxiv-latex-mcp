@@ -11,14 +11,14 @@
   "documentation": "https://github.com/takashiishida/arxiv-latex-mcp",
   "server": {
     "type": "python",
-    "entry_point": "server/main.py",
+    "entry_point": "local_server/main.py",
     "mcp_config": {
       "command": "python3.10",
       "args": [
-        "${__dirname}/server/main.py"
+        "${__dirname}/local_server/main.py"
       ],
       "env": {
-        "PYTHONPATH": "${__dirname}/server/lib"
+        "PYTHONPATH": "${__dirname}/src"
       }
     }
   },

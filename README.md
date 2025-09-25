@@ -24,7 +24,7 @@ Otherwise, you can manually add the following configuration to your config file:
               "--directory",
               "/ABSOLUTE/PATH/TO/arxiv-latex-mcp",
               "run",
-              "server/main.py"
+              "local_server/main.py"
           ]
       }
   }
@@ -45,7 +45,7 @@ uv run dev               # launch FastMCP server via Smithery CLI
 uv run playground        # open Smithery playground for interactive testing
 
 # or run the legacy stdio entrypoint directly
-uv run server/main.py
+uv run local_server/main.py
 ```
 
 The stdio script delegates to the FastMCP server defined in `src/arxiv_latex_mcp/server.py`, so both Smithery deployments and local debugging use the same tool implementation.

@@ -1,2 +1,3 @@
 server/lib/
 *.dxt
+.DS_Store

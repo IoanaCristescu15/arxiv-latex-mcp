@@ -10,7 +10,7 @@ from mcp.server import NotificationOptions
 from mcp.server.models import InitializationOptions
 from mcp.server.stdio import stdio_server
 
-from mcp_server.server import create_server
+from arxiv_latex_mcp.server import create_server
 
 logging.basicConfig(level=logging.INFO)
 
